@@ -1,0 +1,13 @@
+{
+  "title": "About Us",
+  "text": "At Netiquette Labs, we are more than just an IT solution provider. We are architects of digital success, dedicated to reshaping your digital landscape and elevating your brand. With a team of innovative experts and a commitment to excellence, we craft tailored solutions to meet your unique needs and propel your business forward in the digital age.",
+  "button": [
+    {
+      "title": "Explore"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
+}

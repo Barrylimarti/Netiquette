@@ -1,0 +1,31 @@
+{
+  "title": "Services",
+  "text": "Explore a world of services tailored to reshape your digital landscape and elevate your brand.",
+  "section": [
+    {
+      "title": "𝐃𝐢𝐠𝐢𝐭𝐚𝐥 𝐌𝐚𝐫𝐤𝐞𝐭𝐢𝐧𝐠 𝐌𝐚𝐬𝐭𝐞𝐫𝐲",
+      "content": "Join us in crafting captivating online narratives that resonate with your audience.",
+      "icon": "digital_marketing.png"
+    },
+    {
+      "title": "𝐈𝐧𝐧𝐨𝐯𝐚𝐭𝐢𝐯𝐞 𝐀𝐩𝐩 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭",
+      "content": "Turn your app aspirations into reality with Netiquette Labs. Our app development team infuses creativity and functionality, ensuring your application stands out. ",
+      "icon": "app_dev.png"
+    },
+    {
+      "title": "𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐜 𝐌𝐚𝐫𝐤𝐞𝐭𝐢𝐧𝐠 𝐒𝐩𝐞𝐧𝐝 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧",
+      "content": "Navigate the marketing landscape with Netiquette Labs, where every marketing dollar counts.",
+      "icon": "optimization.png"
+    },
+    {
+      "title": " 𝐒𝐄𝐎 𝐄𝐱𝐜𝐞𝐥𝐥𝐞𝐧𝐜𝐞",
+      "content": "Position your brand at the forefront with our SEO specialists.",
+      "icon": "seo.png"
+    },
+    {
+      "title": " 𝐂𝐮𝐬𝐭𝐨𝐦 𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 𝐆𝐫𝐨𝐰𝐭𝐡 𝐀𝐜𝐜𝐞𝐥𝐞𝐫𝐚𝐭𝐨𝐫𝐬",
+      "content": "Experience growth tailored to your business with Netiquette Labs. Our custom accelerators blend technology, strategy, and innovation to drive sustained growth.",
+      "icon": "sales.png"
+    }
+  ]
+}
