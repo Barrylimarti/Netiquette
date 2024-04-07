@@ -15,7 +15,6 @@ export const StyledContainer = styled("div")`
   height:400px;
   margin: 10px;
   border-radius: 20px 20px;
-  padding: 20px;
   background:#008080;
 
   &:hover{
@@ -66,10 +65,13 @@ export const StyledContent = styled("div")`
   }
 `;
 export const StyledHeader=styled("div")`
-  
+  background:white;
+  width:100%;
+  border-radius: 20px 20px 0px 0px;
 `
 export const StyledPara=styled("div")`
 position:relative;
   margin-top:10;
-  color: #fff;
+  background:#008080;
+  padding:5px;
 `

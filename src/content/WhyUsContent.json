@@ -1,0 +1,30 @@
+{
+    "title":"Why Us?",
+    "cards":[
+        {
+            "title":"Expertise",
+            "content":"Our team of experienced professionals brings a wealth of knowledge and expertise to every project, ensuring unparalleled results.",
+            "icon":"triumph.svg"
+        },
+        {
+            "title":"Innovation",
+            "content":"We leverage the latest technologies and strategies to drive innovation and stay ahead of the competition.",
+            "icon":"triumph.svg"
+        },
+        {
+            "title":"Tailored Solutions",
+            "content":"We understand that every business is unique, which is why we take a tailored approach to meet the specific needs and objectives of each client.",
+            "icon":"triumph.svg"
+        },
+        {
+            "title":"Proven Track Record",
+            "content":"With a proven track record of success, we have helped numerous businesses achieve their digital goals and unlock new growth opportunities.",
+            "icon":"triumph.svg"
+        },
+        {
+            "title":"Exceptional Service",
+            "content":"We are dedicated to providing exceptional service and support, and building long-term partnerships based on trust, reliability, and results.",
+            "icon":"triumph.svg"
+        }
+    ]
+}

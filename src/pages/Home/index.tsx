@@ -5,6 +5,8 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import WhyUsContent from "../../content/WhyUsContent.json"
+import WhyUsBlock from "../../components/WhyUsBlock";
 import VisionContent from "../../content/VisionContext.json"
 import HeretohelpContent from "../../content/HeretohelpContent.json"
 import ServiceContent from "../../content/ServiceContent.json"
@@ -52,11 +54,16 @@ const Home = () => {
         icon="triumph.svg"
         id="intro"
       /> */}
+      <WhyUsBlock
+      title={WhyUsContent.title}
+      cards={WhyUsContent.cards}
+      />
       {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
       /> */}
+      
       <CardsBlock 
       title={ServiceContent.title}
       content={ServiceContent.text}

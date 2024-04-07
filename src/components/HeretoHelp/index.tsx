@@ -16,6 +16,7 @@ import {
   ButtonWrapper,
 } from "./styles";
 import Card from "../../common/Cards";
+import { Carousel } from "antd";
 
 const HeretoHelp = ({
   icon,
@@ -52,7 +53,24 @@ const HeretoHelp = ({
             <ContentWrapper>
               {/* <h6>{t(title)}</h6> */}
               {/* <Content>{t(content)}</Content> */}
-              {direction === "right" ? (
+              <Carousel autoplay dotPosition="top" autoplaySpeed={3000}>
+            {section?.map((item)=>{
+              return(
+                <div >
+            <Row style={{backgroundColor:"#D3E5E5"}}>
+                {/* <Col span={12} style={{display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:"#008080"}}> */}
+                {/* <SvgIcon src={item.icon} width="100%" height="80%" /> */}
+                {/* </Col> */}
+                <Col span={24} style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",backgroundColor:"#008080",padding:20,height:500}}>
+                <p style={{color:"white",fontSize:44,fontWeight:600}}>{item.title}</p>
+                <p style={{color:"white"}}>{item.content}</p>
+                </Col>
+            </Row>
+            </div>
+              )
+            })}
+  </Carousel>
+              {/* {direction === "right" ? (
                 <ButtonWrapper>
                   {typeof button === "object" &&
                     button.map(
@@ -91,11 +109,11 @@ const HeretoHelp = ({
                             console.log(item.title)
                           return (
                             <Col key={id} span={11}>
-                              {/* <SvgIcon
+                              <SvgIcon
                                 src={item.icon}
                                 width="60px"
                                 height="60px"
-                              /> */}
+                              />
                               <MinTitle>{t(item.title)}</MinTitle>
                               <MinPara>{t(item.content)}</MinPara>
                             </Col>
@@ -105,7 +123,7 @@ const HeretoHelp = ({
                       )}
                   </Row>
                 </ServiceWrapper>
-              )}
+              )} */}
             </ContentWrapper>
           </Col>
         </StyledRow>
