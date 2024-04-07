@@ -16,9 +16,11 @@ export const StyledContainer = styled("div")`
   margin: 10px;
   border-radius: 20px 20px;
   padding: 20px;
+  background:#008080;
 
   &:hover{
-    background-color:rgba(0, 128, 128,0.2) ;
+    background-color:#008080;
+    
   }
   @media only screen and (max-width: 1024px) {
     max-width: calc(100% - 68px);
@@ -69,4 +71,5 @@ export const StyledHeader=styled("div")`
 export const StyledPara=styled("div")`
 position:relative;
   margin-top:10;
+  color: #fff;
 `

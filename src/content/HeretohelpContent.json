@@ -1,0 +1,37 @@
+{
+    "title": "WE ARE HERE TO HELP ",
+    "text": "At Netiquette Labs, we understand that the success of your digital solutions relies heavily on continuous support and maintenance. Beyond the initial delivery of your project, we remain committed to ensuring its ongoing performance and relevance. Our post-project maintenance and support services are meticulously designed to provide you with peace of mind and uninterrupted functionality, allowing you to focus on your core business activities while we handle the technical intricacies.",
+    "section": [
+      {
+        "title": "Continuous Monitoring and Issue Resolution",
+        "content": "Following project completion, we implement a robust monitoring system to track your performance in real time. Our dedicated support team is poised to identify and resolve any potential issues promptly, minimising downtime and disruptions to your operations.",
+        "icon": "digital_marketing.png"
+      },
+      {
+        "title": "Regular Updates and Enhancements",
+        "content": "Technology evolves rapidly, and so do your business needs. We proactively release updates and enhancements to your opted services, ensuring they remain compatible with the latest technologies and aligned with your evolving requirements.",
+        "icon": "app_dev.png"
+      },
+      {
+        "title": "Helpdesk and Technical Support",
+        "content": "Our support team is available round-the-clock to address your technical queries, provide troubleshooting assistance, and offer user guidance. Whether it's a minor inquiry or a critical issue, our experienced professionals are dedicated to delivering timely and effective support, ensuring a seamless user experience",
+       "icon": "optimization.png"
+      },
+      {
+        "title": "Service Level Agreements (SLAs)",
+        "content": "Our commitment to your satisfaction is implemented through Service Level Agreements. These agreements structure response times, resolution times, and other key performance indicators, ensuring you receive the best level of service you expect and deserve",
+       "icon": "sales.png"
+      },
+      {
+        "title": "Performance Optimization",
+        "content": "We conduct routine performance assessments and optimizations to maintain the best performance. From identifying bottlenecks to fine-tuning, our goal is to ensure that your brand runs smoothly, even as your user base expands.",
+       "icon": "sales.png"
+      },
+      {
+        "title": "Security and Data Protection",
+        "content": "We prioritise the security of your data and services. Our robust security measures safeguard your information from potential threats, with regular assessments and updates to stay ahead of vulnerabilities. Rest assured that your data's integrity and confidentiality are our top priorities",
+        "icon": "seo.png"
+      }
+    ]
+  }
+  

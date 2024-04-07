@@ -4,22 +4,18 @@ import { SvgIcon } from "../SvgIcon";
 
 const Card = ({ title,content,icon}: CardProps) => (
   <StyledContainer>
-       <SvgIcon
+       {/* <SvgIcon
             src={icon}
-            width="200px"
-            height="200px"
-            />
+            width="100px"
+            height="100px"
+            /> */}
     <StyledContent>
         <StyledHeader>
-            <p style={{fontSize:20}}>
-        {title}
-        </p>
+            <p style={{fontSize:23,color:'#fff',fontWeight:"bolder"}}>{title}</p>
         </StyledHeader>
         
         <StyledPara>
-            <p style={{fontSize:16}}>
-            {content}
-            </p>
+            <p style={{fontSize:16,color:'#fff'}}>{content}</p>
         </StyledPara>
     </StyledContent>
     </StyledContainer>
