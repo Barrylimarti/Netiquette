@@ -12,6 +12,7 @@ import HeretohelpContent from "../../content/HeretohelpContent.json"
 import ServiceContent from "../../content/ServiceContent.json"
 import CoreValuesContent from '../../content/CoreValuesContent.json'
 import ApproachContent from '../../content/ApproachContent.json'
+import EngagementContent from '../../content/EngagementContent.json'
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -25,6 +26,7 @@ const Mission = lazy(() => import("../../components/Mission"));
 const HeretoHelp = lazy(() => import("../../components/HeretoHelp"));
 const CoreValue = lazy(()=> import('../../components/CoreValue'))
 const Approach = lazy(()=> import('../../components/Approach'))
+const Engagement = lazy(()=> import('../../components/Engagement'))
 
 const Home = () => {
   return (
@@ -101,6 +103,12 @@ const Home = () => {
         icon="waving.svg"
         id="product"
       /> */}
+       <Engagement 
+      title={EngagementContent.title}
+      content={EngagementContent.text}
+      section={EngagementContent.section}
+      content2={EngagementContent.text2}
+      />
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
