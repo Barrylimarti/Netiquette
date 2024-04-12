@@ -10,6 +10,8 @@ import WhyUsBlock from "../../components/WhyUsBlock";
 import VisionContent from "../../content/VisionContext.json"
 import HeretohelpContent from "../../content/HeretohelpContent.json"
 import ServiceContent from "../../content/ServiceContent.json"
+import CoreValuesContent from '../../content/CoreValuesContent.json'
+import ApproachContent from '../../content/ApproachContent.json'
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -21,6 +23,8 @@ const AboutUs = lazy(() => import("../../components/AboutUs"));
 const Vision = lazy(() => import("../../components/Vision"));
 const Mission = lazy(() => import("../../components/Mission"));
 const HeretoHelp = lazy(() => import("../../components/HeretoHelp"));
+const CoreValue = lazy(()=> import('../../components/CoreValue'))
+const Approach = lazy(()=> import('../../components/Approach'))
 
 const Home = () => {
   return (
@@ -44,6 +48,18 @@ const Home = () => {
         title={MissionContent.title}
         content={MissionContent.text}
         icon="mission.svg"
+        id="mission"
+      />
+     <CoreValue 
+      title={CoreValuesContent.title}
+      content={CoreValuesContent.text}
+      section={CoreValuesContent.section}
+      />
+      <Approach
+        direction="left"
+        title={ApproachContent.title}
+        content={ApproachContent.text}
+        icon="approach.jpg"
         id="mission"
       />
       {/* <ContentBlock

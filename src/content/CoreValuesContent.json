@@ -1,0 +1,32 @@
+{
+    "title": "Core Values",
+    "text": "",
+    "section": [
+      {
+        "title": "Innovation",
+        "content": "We embrace creativity and continuously seek out new ideas and technologies to stay ahead of the curve and trends.",
+        "icon": "digital_marketing.png"
+      },
+      {
+        "title": "Integrity",
+        "content": "We conduct ourselves with honesty, transparency, and integrity in all aspects of our work.",
+        "icon": "app_dev.png"
+      },
+      {
+        "title": "Collaboration",
+        "content": "We believe in the power of collaboration, working closely with our clients to achieve the best goals and objectives.",
+        "icon": "optimization.png"
+      },
+      {
+        "title": "Excellence",
+        "content": "We are committed to bringing out excellence in everything we do, setting high standards and striving for continuous improvement.",
+        "icon": "seo.png"
+      },
+      {
+        "title": "Customer-Centricity",
+        "content": "We prioritise the needs and objectives of our clients, putting their success at the forefront of everything we do.",
+        "icon": "sales.png"
+      }
+    ]
+  }
+  

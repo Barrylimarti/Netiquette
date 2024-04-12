@@ -42,7 +42,7 @@ const CarouselBlock = ({ title,cards, t }: WhyUsProps) => {
       <Slide direction="up" triggerOnce>
         <ContentWrapper>
         <h6>{t(title)}</h6>
-          <Carousel autoplay dotPosition="top" autoplaySpeed={3000}>
+          <Carousel autoplay dotPosition="top" autoplaySpeed={1000}>
             {cards?.map((item)=>{
               return(
                 <div >
