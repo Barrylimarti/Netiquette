@@ -71,5 +71,5 @@ export const StyledPara=styled("div")`
 position:relative;
   margin:auto;
   background:#f0f6fa;
-  padding:5px;
+  padding:30px;
 `

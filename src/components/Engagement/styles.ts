@@ -16,7 +16,6 @@ export const Content = styled("p")`
   padding: 0.75rem 0 0.75rem;
   color:#fff;
   background:#008080
-  
 `;
 
 export const ContentWrapper = styled("div")`

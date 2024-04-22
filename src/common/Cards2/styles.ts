@@ -17,10 +17,7 @@ export const MyStyledContainer = styled("div")`
   border-radius: 20px 20px;
   background:#fff;
 
-  &:hover{
-    background-color:#008080;
-    
-  }
+  
   @media only screen and (max-width: 1024px) {
     max-width: calc(100% - 68px);
     padding: 0 30px;

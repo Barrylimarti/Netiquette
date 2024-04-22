@@ -101,13 +101,24 @@ export const StyledContent = styled("div")`
   }
 `;
 export const StyledHeader=styled("div")`
-  background:white;
+background:#008080;
   width:100%;
   border-radius: 20px 20px 0px 0px;
+  height:60px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
 `
 export const StyledPara=styled("div")`
 position:relative;
   margin-top:10;
-  background:#008080;
+  background:white;
   padding:5px;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100%;
+  border-radius: 0px 0px 20px 20px;
 `

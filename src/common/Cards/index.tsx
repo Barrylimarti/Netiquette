@@ -11,11 +11,11 @@ const Card = ({ title,content,icon}: CardProps) => (
             /> */}
     <StyledContent>
         <StyledHeader>
-            <p style={{fontSize:23,color:'#008080',fontWeight:"bolder"}}>{title}</p>
+            <h1 style={{fontSize:20,color:'#fff',fontWeight:"bolder"}}>{title}</h1>
         </StyledHeader>
         
         <StyledPara>
-            <p style={{fontSize:16,color:'#fff'}}>{content}</p>
+            <p style={{fontSize:16,color:'#008080'}}>{content}</p>
         </StyledPara>
     </StyledContent>
     </StyledContainer>

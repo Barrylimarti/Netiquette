@@ -56,7 +56,7 @@ const CardsBlock = ({ title, content, section,content2, t }: CardBlockProps) => 
                       </Row>
                       <ContentWrapper>
             <Col lg={24} md={24} sm={24} xs={24}>
-              <Content style={{color:"#008080",background:"white",fontWeight:"bolder"}}>{t(content2)}</Content>
+              <h6 style={{fontSize:20,padding:20}}>{t(content2)}</h6>
             </Col>
           </ContentWrapper>
         </Row>
