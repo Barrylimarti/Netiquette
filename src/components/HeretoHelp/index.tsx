@@ -14,6 +14,7 @@ import {
   MinPara,
   StyledRow,
   ButtonWrapper,
+  StyledCol,
 } from "./styles";
 import Card from "../../common/Cards";
 import { Carousel } from "antd";
@@ -61,10 +62,10 @@ const HeretoHelp = ({
                 {/* <Col span={12} style={{display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:"#008080"}}> */}
                 {/* <SvgIcon src={item.icon} width="100%" height="80%" /> */}
                 {/* </Col> */}
-                <Col span={24} style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",backgroundColor:"#008080",padding:20,height:500}}>
+                <StyledCol span={24}>
                 <p style={{color:"white",fontSize:44,fontWeight:600}}>{item.title}</p>
                 <p style={{color:"white"}}>{item.content}</p>
-                </Col>
+                </StyledCol>
             </Row>
             </div>
               )

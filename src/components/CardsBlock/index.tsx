@@ -14,9 +14,10 @@ interface CardBlockProps {
       icon: string;
     }[];
   t: TFunction;
+  id:string;
 }
 
-const CardsBlock = ({ title, content, section, t }: CardBlockProps) => {
+const CardsBlock = ({ title, content, section,id, t }: CardBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
@@ -26,14 +27,16 @@ const CardsBlock = ({ title, content, section, t }: CardBlockProps) => {
   return (
     <CardBlockSection>
       <Slide direction="up" triggerOnce>
-        <Row justify="center" align="middle">
+        <Row justify="center" align="middle" id={id}>
           <ContentWrapper>
             <Col lg={24} md={24} sm={24} xs={24}>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
             </Col>
           </ContentWrapper>
-          <Row style={{width:"100%",justifyContent:"center"}}>
+          <Row 
+          style={{width:"100%",justifyContent:"center"}}
+          >
               {typeof section === "object" &&
                       section.map(
                         (
@@ -45,7 +48,7 @@ const CardsBlock = ({ title, content, section, t }: CardBlockProps) => {
                           id: number
                         ) => {
                           return (
-                            <Col key={id}>
+                            <Col key={id} style={{margin:10}}>
                              <Card title={item.title} icon={item.icon} content={item.content}/>
                             </Col>
                             

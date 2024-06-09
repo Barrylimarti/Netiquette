@@ -38,7 +38,7 @@ const Home = () => {
         content={IntroContent.text}
         button={IntroContent.button}
         icon="triumph.svg"
-        id="intro"
+        id="about"
       />
       <Vision
         title={VisionContent.title}
@@ -62,7 +62,7 @@ const Home = () => {
         title={ApproachContent.title}
         content={ApproachContent.text}
         icon="approach.jpg"
-        id="mission"
+        id="approach"
       />
       {/* <ContentBlock
         direction="right"
@@ -75,6 +75,7 @@ const Home = () => {
       <WhyUsBlock
       title={WhyUsContent.title}
       cards={WhyUsContent.cards}
+      id="whyus"
       />
       {/* <MiddleBlock
         title={MiddleBlockContent.title}
@@ -86,6 +87,7 @@ const Home = () => {
       title={ServiceContent.title}
       content={ServiceContent.text}
       section={ServiceContent.section}
+      id="product"
       />
       <HeretoHelp
         direction="left"
@@ -93,7 +95,7 @@ const Home = () => {
         content={HeretohelpContent.text}
         section={HeretohelpContent.section}
         icon="graphs.svg"
-        id="about"
+        id="help"
       />
   
       {/* <ContentBlock

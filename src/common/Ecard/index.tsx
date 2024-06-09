@@ -9,15 +9,15 @@ const Ecard = ({ title,content,icon}: CardProps) => (
             width="100px"
             height="100px"
             /> */}
-    <StyledContent>
+    {/* <StyledContent> */}
         {/* <StyledHeader>
             <p style={{fontSize:23,color:'#008080',fontWeight:"bolder"}}>{title}</p>
         </StyledHeader> */}
         
-        <StyledPara>
+        {/* <StyledPara> */}
             <h1 style={{fontSize:18,color:'#008080',fontWeight:"bolder"}}>{content}</h1>
-        </StyledPara>
-    </StyledContent>
+        {/* </StyledPara> */}
+    {/* </StyledContent> */}
     </StyledContainer>
 );
 

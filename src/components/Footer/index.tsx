@@ -56,7 +56,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:mohit@netiquettelabs.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -75,9 +75,9 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              {/* <Para>Rancho Santa Margarita</Para> */}
+              <Para>Nagpur, Maharashtra</Para>
+              <Para>India</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
@@ -97,14 +97,14 @@ const Footer = ({ t }: { t: TFunction }) => {
                     height="30px"
                   />
                 </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
+                {/* <LanguageSwitch onClick={() => handleChange("es")}>
                   <SvgIcon
                     src="spain.svg"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
                   />
-                </LanguageSwitch>
+                </LanguageSwitch> */}
               </LanguageSwitchContainer>
             </Col>
           </Row>
@@ -137,7 +137,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 src="twitter.svg"
               />
               <SocialLink
-                href=""
+                href="https://www.linkedin.com/company/netiquette-labs-private-limited/"
                 src="linkedin.svg"
               />
               <SocialLink

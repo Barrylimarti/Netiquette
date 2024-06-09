@@ -34,13 +34,13 @@ const Header = ({ t }: { t: TFunction }) => {
     return (
       <>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span style={{fontSize:26,color:"white"}}>{t("About")}</Span>
+          <Span style={{fontSize:26}}>{t("About")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span style={{fontSize:26,color:"white"}}>{t("Mission")}</Span>
+          <Span style={{fontSize:26}}>{t("Mission")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span style={{fontSize:26,color:"white"}}>{t("Product")}</Span>
+          <Span style={{fontSize:26}}>{t("Product")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
@@ -64,11 +64,11 @@ const Header = ({ t }: { t: TFunction }) => {
           <NotHidden>
             <MenuItem />
           </NotHidden>
-          <Burger onClick={toggleButton}>
+          <Burger onClick={toggleButton} >
             <Outline />
           </Burger>
         </Row>
-        <Drawer closable={false} open={visible} onClose={toggleButton}>
+        <Drawer closable={false} open={visible} onClose={toggleButton} style={{color:"white"}}>
           <Col style={{ marginBottom: "2.5rem" }}>
             <Label onClick={toggleButton}>
               <Col span={12}>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MyStyledContainer = styled("div")`
   position: relative;
-  width: 225px;
+  width: 325px;
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -12,7 +12,7 @@ export const MyStyledContainer = styled("div")`
   margin-left: auto;
   border: 2px solid black;
   border-color: green;
-  height:300px;
+  height:400px;
   margin: 10px;
   border-radius: 20px 20px;
   background:#fff;
@@ -30,7 +30,7 @@ export const MyStyledContainer = styled("div")`
 
   @media only screen and (max-width: 414px) {
     max-width: 100%;
-    padding: 0 18px;
+    padding: 0px 0px;
   }
 `;
 export const StyledContainer = styled("div")`
@@ -66,7 +66,7 @@ export const StyledContainer = styled("div")`
 
   @media only screen and (max-width: 414px) {
     max-width: 100%;
-    padding: 0 18px;
+    padding: 0 0px;
   }
 `;
 export const StyledContent = styled("div")`

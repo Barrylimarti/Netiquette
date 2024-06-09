@@ -13,25 +13,29 @@ export const StyledContainer = styled("div")`
   margin-left: auto;
   border: 2px solid black;
   border-color: green;
-  height:350px;
   margin: 10px;
   border-radius: 20px;
   background:#f0f6fa;
+  padding:10px;
+  height:250px;
 
   
   @media only screen and (max-width: 1024px) {
     max-width: calc(100% - 68px);
-    padding: 0 30px;
+    padding: 10px;
   }
 
   @media only screen and (max-width: 768px) {
     max-width: calc(100% - 38px);
-    padding: 0 18px;
+    padding: 10px;
+    height:450px;
   }
 
   @media only screen and (max-width: 414px) {
     max-width: 100%;
-    padding: 0 18px;
+    height:100%;
+    padding: 0 0px;
+    width:300px;
   }
 `;
 export const StyledContent = styled("div")`
@@ -57,7 +61,7 @@ export const StyledContent = styled("div")`
     padding: 0 18px;
   }
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 575px) {
     max-width: 100%;
     padding: 0 18px;
   }
@@ -72,4 +76,5 @@ position:relative;
   margin:auto;
   background:#f0f6fa;
   padding:30px;
+  text-align:center;
 `

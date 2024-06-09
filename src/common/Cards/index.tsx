@@ -9,7 +9,7 @@ const Card = ({ title,content,icon}: CardProps) => (
             width="100px"
             height="100px"
             /> */}
-    <StyledContent>
+    {/* <StyledContent> */}
         <StyledHeader>
             <h1 style={{fontSize:20,color:'#fff',fontWeight:"bolder"}}>{title}</h1>
         </StyledHeader>
@@ -17,7 +17,7 @@ const Card = ({ title,content,icon}: CardProps) => (
         <StyledPara>
             <p style={{fontSize:16,color:'#008080'}}>{content}</p>
         </StyledPara>
-    </StyledContent>
+    {/* </StyledContent> */}
     </StyledContainer>
 );
 

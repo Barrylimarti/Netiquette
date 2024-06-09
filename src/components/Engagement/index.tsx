@@ -2,7 +2,7 @@ import { Row, Col } from "antd";
 import { withTranslation, TFunction } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
 import { Button } from "../../common/Button";
-import { CardBlockSection, Content, ContentWrapper } from "./styles";
+import { CardBlockSection, Content, ContentWrapper, Heading2 } from "./styles";
 import Ecard from "../../common/Ecard";
 
 interface CardBlockProps {
@@ -46,7 +46,7 @@ const CardsBlock = ({ title, content, section,content2, t }: CardBlockProps) => 
                           id: number
                         ) => {
                           return (
-                            <Col key={id}>
+                            <Col key={id} style={{margin:10}}>
                              <Ecard title={item.title} icon={item.icon} content={item.content}/>
                             </Col>
                             
@@ -55,8 +55,8 @@ const CardsBlock = ({ title, content, section,content2, t }: CardBlockProps) => 
                       )}
                       </Row>
                       <ContentWrapper>
-            <Col lg={24} md={24} sm={24} xs={24}>
-              <h6 style={{fontSize:20,padding:20}}>{t(content2)}</h6>
+            <Col lg={24} md={24} sm={24} xs={24} style={{marginTop:10}}>
+              <Heading2 >{t(content2)}</Heading2>
             </Col>
           </ContentWrapper>
         </Row>
